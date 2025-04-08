@@ -15,29 +15,23 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: frog.png
 author: Teo Simonsson
 author_bio: 
 author_email: "teo.simonsson@gmail.com"
-author_location: Sweden
+author_location: Gothenburg, Sweden
 author_website_url: 
 typewrite-text: Software Engineer and low level enthusiast
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: 
-              company_logo: 
-              company_url: 
-              designation: 
-              description: 
-              visibility: false
-            - company_name: 
-              company_logo: 
-              company_url: 
-              designation: 
-              description: 
-              visibility: false 
+            - company_name: Aros Electronics
+              company_logo: aros.jpeg
+              company_url: https://www.aros.se/
+              designation: Programming Intern
+              description: Developed a PID regulator for a cooling pump, for use in electronics testing
+              visibility: true
 
 # Education
 author_education_details:
@@ -62,16 +56,18 @@ author_project_details:
                 visibility: true
               - project_thumbnail: 
                 project_title: Pseudo-VML
-                project_description: A tool / library for automated code caving and executable analysis
+                project_description: A tool / library for automated code caving, executable analysis and modification
                 project_url: https://github.com/TeYo001/Pseudo-VML
                 visibility: true
 
+author_general_description: Testing
+
 # social links
 #twitter_username: xplor4r
-github_username:  teyo001
+github_username:  TeYo001
 #instagram_username: xplor4r
 # facebook_username: johndoe
-# linkedin_username: johndoe
+linkedin_username: teo-simonsson
 # behance_username: johndoe
 # medium_username: johndoe
 # telegram_username: johndoe
@@ -94,7 +90,7 @@ github_username:  teyo001
 # formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: TeYo 
+olvy_organization: Teo
 olvy_widget_type: sidebar
 
 # syntax highlighter
@@ -103,7 +99,7 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: false 
+show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
